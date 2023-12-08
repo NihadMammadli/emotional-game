@@ -12,16 +12,15 @@ OBSTACLE_SPEED = 10
 FPS = 60
 OBSTACLE_HEIGHT = 300 
 
-# Colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 YELLOW = (255, 255, 0)
 RED = (255, 0, 0)
 
-ball_image = pygame.image.load("neonball.png")
+ball_image = pygame.image.load("assets/images/neonball.png")
 ball_image = pygame.transform.scale(ball_image, (BALL_RADIUS * 2, BALL_RADIUS * 2))
 
-background_image = pygame.image.load("background.jpg")
+background_image = pygame.image.load("assets/images/background.jpg")
 background_image = pygame.transform.scale(background_image, (WIDTH, HEIGHT))
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
